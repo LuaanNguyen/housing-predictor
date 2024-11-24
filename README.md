@@ -1,0 +1,38 @@
+### Concepts Learned from this project: 
+- Machine Learning is great for:
+  - Problesm for which existing solution require a lot of hand-tuning or long lists of riles: one ML algorithm can often simplify code and perform better.
+  - Complex problesm for which there is no good solution at all using a traditionla approach: The best ML techniques can find a solution
+  - Flunctionting envrionments: a Machine Learning system can adapt to new data
+  - Getting insights about complex problesm are large amount of data
+ 
+- Types of ML systems:
+  - Supervised Learning: the training data is fed into the algorithm with desired solutions, called *labels*
+    - Classification: a typical supervised learning task
+    - To target numeric value: given a car's mileage, age, brand, etc. proedict its price.
+    - Some important supervised learning algorithms:
+      - k-Nearest Neighbors
+      - Linear Regression
+      - Logistic Regression
+      - Support Vecotr Machines (SVMs)
+      - Decision Trees and Random Forest
+      - Neural Networks
+  - Unsupervised Learning: A ML system is trying to learn without a teacher, the training data is unlabeled.
+    - Some important algorithms:
+      - Clustering:
+        - k-Means
+        - Hierachical Cluster Analysis (HCA)
+        - Expectation Maximization
+      - Visualization and Dimensionality reduction
+        - Principal Component Analysis (PCA)
+        - Kernal PCA
+        - Locally-Linear Embeding (LLE)
+        - t-distributed Stochastic Neighbor Embedding (t-SNE)
+      - Associtation rule learning
+        - Apriori
+        - Eclat
+  - Semisupervised Learning: Mix of labeled and unlabeled data
+  - Reinforcement Learning: A learning system, called *agent* in this context, can observe the environment, select and perform actions, and get *rewards* in return, or *penalty*. The system must learn by itself, called *policy*, to get the most reward overtime.
+  - Batch learning (Offline learning): the system learns incrementally using all the available data. Generally takes a lot of time and computing resources (typically done offline)
+  - Online learning: The system is learned incrementally by being fed in data instances sequentially in  *mini-batches*. Each learning step is cheap and fast, so the system can learn about new data on the fly.
+  - Instance-based learning: The system learns the examples by heart, then generalizes to new cases using a similarity measure
+  - Model-based learning: Build a model from a set of examples, then use that model to make new predictions.
