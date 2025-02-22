@@ -2,3 +2,7 @@ env/
 .vscode/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+forest_reg.pkl
+lin_reg.pkl
+tree_reg.pkl
